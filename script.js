@@ -78,7 +78,7 @@
 
     // Required fields check
     if (!username || !email || !password || !confirmPassword) {
-      errors.push("All fields are required.");
+      errors.push("All fields are required");
     }
 
     // Email validation
