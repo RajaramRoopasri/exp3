@@ -8,6 +8,6 @@ document.getElementById("ecetForm").addEventListener("submit", function (e) {
     return;
   }
 
-  alert("Form submitted successfully!");
+  alert("Form submitted successfully");
   this.reset(); // Optional: reset the form after submission
 });
